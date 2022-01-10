@@ -1,6 +1,6 @@
 import React from 'react'
 import Image from 'next/image'
-import { images } from '../public/assets'
+// import { images } from '../public/assets'
 import * as VsIcons from 'react-icons/vsc'
 const Rules = () => {
  return (
@@ -21,37 +21,36 @@ const Rules = () => {
              <li className="flex text-xl items-start justify-items-start ">
                <VsIcons.VscLaw />
                <p>
-               Open-mindedness is diamond. No racial, geographic discrimination.
+                 Open-mindedness is diamond. No racial, geographic
+                 discrimination.
                </p>
              </li>
              <li className=" flex text-xl">
                <VsIcons.VscLaw />
-               We share our knowledge, because that’s the whole point.
+               {/* We share our knowledge, because that’s the whole point. */}
              </li>
              <li className=" flex text-xl ">
                <VsIcons.VscLaw />
                <p>
-
-               We share our knowledge, because that’s the whole point.
+                 {/* We share our knowledge, because that’s the whole point. */}
                </p>
              </li>
              <li className=" flex text-xl">
                <VsIcons.VscLaw />
-               We share our knowledge, because that’s the whole point.
+               {/* We share our knowledge, because that’s the whole point. */}
              </li>
              <li className=" flex text-xl">
                <VsIcons.VscLaw />
-               We share our knowledge, because that’s the whole point.
+               {/* We share our knowledge, because that’s the whole point. */}
              </li>
              <li className=" flex text-xl">
                <VsIcons.VscLaw />
-               We share our knowledge, because that’s the whole point.
+               {/* We share our knowledge, because that’s the whole point. */}
              </li>
            </ul>
          </div>
-         <div className='border-red-500 border-2'>
-
-         <Image src={images.girl} alt="rules" />
+         <div className="border-red-500 border-2">
+           <Image src="/public/assets/images/girl.svg" alt="rules" layout='fill' />
          </div>
        </div>
      </div>
