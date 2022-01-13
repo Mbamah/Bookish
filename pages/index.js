@@ -1,5 +1,5 @@
 import Head from 'next/head'
-import {  Book, Cludruns, Hero, Rules } from '../components';
+import {  Book, Cludruns, Hero, Rules, Works } from '../components';
 
 
 export default function Home() {
@@ -11,8 +11,9 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Hero/>
-      <Cludruns/>
+      <Works/>
       <Book/>
+      {/* <Cludruns/> */}
       <Rules/>
     </section>
   );
