@@ -5,5 +5,6 @@ import Cludruns from './Cludruns'
 import Book from './Book'
 import Rules from './Rules'
 import Footer from './Footer'
+import AboutBook from './AboutBook'
 
-export{Header, Hero, Cludruns, Book, Rules, Footer, Works}
+export{Header, Hero, Cludruns, Book, Rules, Footer, Works, AboutBook}

@@ -23,7 +23,7 @@ const Header = () => {
           </li>
           {!user ? (
             <li className="bg-white px-4 py-2 ">
-              <a href="/api/auth/login" >
+              <a href="/api/auth/login?returnTo=/profile" >
                 Login
               </a>
             </li>

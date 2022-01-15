@@ -1,5 +1,5 @@
 import Head from 'next/head'
-import {  Book, Cludruns, Hero, Rules, Works } from '../components';
+import {  AboutBook, Book, Cludruns, Hero, Rules, Works } from '../components';
 
 
 export default function Home() {
@@ -15,6 +15,7 @@ export default function Home() {
       <Book/>
       {/* <Cludruns/> */}
       <Rules/>
+      <AboutBook/>
     </section>
   );
 }
