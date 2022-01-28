@@ -2,7 +2,7 @@ import React from "react";
 import * as BsIcons from 'react-icons/bs'
 const Hero = () => {
   return (
-    <section className="bg-[#FEC702] h-screen flex flex-col items-center justify-center ">
+    <section className="bg-gray-900 text-white h-screen flex flex-col items-center justify-center ">
       <div className="container mx-auto max-w-3xl py-12  px-6 text-center ">
         <h1 className="font-['Numans'] md:text-7xl text-3xl leading-10">
           Building The Habit of Reading
@@ -12,15 +12,18 @@ const Hero = () => {
           interest. All of you can do it, but I guarantee not many of you will
           do it.&quot; - Warren Buffet.
         </blockquote>
+        
         <a
-          href=""
-          className="bg-white font-['Numans']  py-4 px-5 md:px-10   font-bold md:text-xl border-black rotate-12"
+          class="relative inline-block text-sm font-['Numans'] md:text-xl font-medium text-gray-900 group"
+          href="/download"
         >
-          
-          Join the club 
+          <span class="absolute inset-0 border border-[#FEC702]"></span>
+          <span class="block px-12 py-3 transition-transform bg-[#FEC702] border border-[#FEC702] group-hover:-translate-x-1 group-hover:-translate-y-1">
+            Join the club
+          </span>
         </a>
       </div>
-        <BsIcons.BsArrowDownCircle className="animate-bounce w-10 h-10 text-white" />
+      <BsIcons.BsArrowDownCircle className="animate-bounce w-10 h-10 text-white" />
     </section>
   );
 };

@@ -10,27 +10,24 @@ const Header = () => {
   if(isLoading) return <div>Loading...</div>
   if(error) return <div>{error.message}</div>
   return (
-    <header className="bg-[#FEC702]">
+    <header className="bg-[#fff] top-0 sticky z-50 shadow-md">
       <nav className="container mx-auto py-4 px-6 flex items-center justify-between">
         <h1 className="flex items-center underline decoration-double font-['Playfair_Display'] text-2xl">
-          <RiIcons.RiBook2Line className="text-white text-2xl" />
+          <RiIcons.RiBook2Line className="text-[#FEC702] text-2xl" />
           Bookish.
         </h1>
 
-        <ul className="flex items-center font-['Numans'] md:text-xl">
+        <ul className="flex items-center font-['Numans'] md:text-lg">
           <li className="mr-7 ">
             <a href="googl.com">Contact</a>
           </li>
           {!user ? (
-            <li className="bg-white px-4 py-2 ">
-              <a href="/api/auth/login?returnTo=/profile" >
-                Login
-              </a>
+            <li className="bg-[#FEC702] text-gray-900 px-4 py-2 ">
+              <a href="/api/auth/login?returnTo=/profile">Login</a>
             </li>
           ) : (
             <div className="flex items-center gap-3">
-           
-              <li className="bg-white px-4 py-2 ">
+              <li className="bg-[#FEC702] px-4 py-2 ">
                 <a href="/api/auth/logout">Logout</a>
               </li>
               <p className="text-sm">{user.nickname}</p>
