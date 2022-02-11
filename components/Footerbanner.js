@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import React from 'react';
 
 const Footerbanner = () => {
@@ -14,12 +15,11 @@ const Footerbanner = () => {
               Join others in what we’re reading and share the adventure together
             </p>
 
-            <a
-              href=""
-              className="inline-block px-5 py-3 mt-8 text-sm font-['Numans'] font-medium text-gray-900 bg-[#FEC702]   hover:bg-white"
-            >
-              Get started today
-            </a>
+            <Link href="">
+              <a className="inline-block px-5 py-3 mt-8 text-sm font-['Numans'] font-medium text-gray-900 bg-[#FEC702]   hover:bg-white">
+                Get started today
+              </a>
+            </Link>
           </div>
         </div>
 

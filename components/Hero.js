@@ -14,11 +14,11 @@ const Hero = () => {
         </blockquote>
         
         <a
-          class="relative inline-block text-sm font-['Numans'] md:text-xl font-medium text-gray-900 group"
+          className="relative inline-block text-sm font-['Numans'] md:text-xl font-medium text-gray-900 group"
           href="/download"
         >
-          <span class="absolute inset-0 border border-[#FEC702]"></span>
-          <span class="block px-12 py-3 transition-transform bg-[#FEC702] border border-[#FEC702] group-hover:-translate-x-1 group-hover:-translate-y-1">
+          <span className="absolute inset-0 border border-[#FEC702]"></span>
+          <span className="block px-12 py-3 transition-transform bg-[#FEC702] border border-[#FEC702] group-hover:-translate-x-1 group-hover:-translate-y-1">
             Join the club
           </span>
         </a>

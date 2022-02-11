@@ -30,7 +30,7 @@ const AboutBook = () => {
            <p className="mt-4 text-white font-['Nunito']">
              Recursion is the process of defining a problem (or the solution to
              a problem) in terms of (a simpler version of) itself. For example,
-             we can define the operation "find your way home" as: If you are at
+             we can define the operation  If you are at
              home, stop moving.
            </p>
 
@@ -47,9 +47,9 @@ const AboutBook = () => {
                stroke="currentColor"
              >
                <path
-                 stroke-linecap="round"
-                 stroke-linejoin="round"
-                 stroke-width="2"
+                 strokeLinecap="round"
+                 strokeLinejoin="round"
+                 strokeWidth="2"
                  d="M17 8l4 4m0 0l-4 4m4-4H3"
                />
              </svg>

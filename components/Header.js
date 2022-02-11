@@ -1,9 +1,9 @@
 import React, {useEffect} from "react";
 import * as RiIcons from "react-icons/ri";
 import { useUser } from "@auth0/nextjs-auth0";
-import { useRouter } from "next/router";
+import Link from "next/link";
 const Header = () => {
-  const {router} = useRouter()
+
   const {user, error ,isLoading} = useUser()
 
   
@@ -23,12 +23,16 @@ const Header = () => {
           </li>
           {!user ? (
             <li className="bg-[#FEC702] text-gray-900 px-4 py-2 ">
-              <a href="/api/auth/login?returnTo=/profile">Login</a>
+              <Link href="/api/auth/login?returnTo=/profile">
+                <a>Login</a>
+              </Link>
             </li>
           ) : (
             <div className="flex items-center gap-3">
               <li className="bg-[#FEC702] px-4 py-2 ">
-                <a href="/api/auth/logout">Logout</a>
+                <Link href="/api/auth/logout">
+                  <a>Logout</a>
+                </Link>
               </li>
               <p className="text-sm">{user.nickname}</p>
             </div>
