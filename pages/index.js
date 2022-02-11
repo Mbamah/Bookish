@@ -1,5 +1,5 @@
 import Head from 'next/head'
-import {  AboutBook, Book, Cludruns, Footerbanner, Hero, Rules, Testimonial, Works } from '../components';
+import {  AboutBook, Book, Footerbanner, Hero, Rules, Testimonial, Works } from '../components';
 
 
 export default function Home() {
@@ -13,7 +13,6 @@ export default function Home() {
       <Hero/>
       <Works/>
       <Book/>
-      {/* <Cludruns/> */}
       <Rules/>
       <AboutBook/>
       <Testimonial/>
