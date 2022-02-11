@@ -1,11 +1,11 @@
-import { useUser } from "@auth0/nextjs-auth0"
+// import { useUser } from "@auth0/nextjs-auth0"
 
 
 const Welcome = () => {
- const{user} = useUser();
+ // const{user} = useUser();
  return (
   <div>
-   You are welcome {user.name}
+   You are welcome
   </div>
  )
 }
