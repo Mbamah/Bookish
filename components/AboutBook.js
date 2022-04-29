@@ -7,11 +7,17 @@ const AboutBook = () => {
      <div className="grid grid-cols-1 lg:grid-cols-2 lg:h-5/6">
        <div className="relative z-10 lg:py-8">
          <div className="relative h-64 lg:h-full">
-           <img
+           {/* <img
              className="absolute inset-0 object-cover w-full h-full"
              src="https://www.hyperui.dev/photos/house-1.jpeg"
-             //  src="/public/assets/images/book1.png"
              alt="book"
+           /> */}
+           <Image
+             src="/assets/images/book1.png"
+             alt="book of the month"
+             width={700}
+             height={550}
+            //  className="absolute inset-0 object-cover w-full h-full"
            />
          </div>
        </div>
@@ -30,8 +36,7 @@ const AboutBook = () => {
            <p className="mt-4 text-white font-['Nunito']">
              Recursion is the process of defining a problem (or the solution to
              a problem) in terms of (a simpler version of) itself. For example,
-             we can define the operation  If you are at
-             home, stop moving.
+             we can define the operation If you are at home, stop moving.
            </p>
 
            <a

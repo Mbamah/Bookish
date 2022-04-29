@@ -1,5 +1,6 @@
 import Link from 'next/link';
 import React from 'react';
+import Image from 'next/image';
 
 const Footerbanner = () => {
   return (
@@ -15,7 +16,7 @@ const Footerbanner = () => {
               Join others in what we’re reading and share the adventure together
             </p>
 
-            <Link href="">
+            <Link href="/">
               <a className="inline-block px-5 py-3 mt-8 text-sm font-['Numans'] font-medium text-gray-900 bg-[#FEC702]   hover:bg-white">
                 Get started today
               </a>
@@ -29,6 +30,13 @@ const Footerbanner = () => {
             alt="Women smiling at college"
             className="absolute inset-0 object-cover w-full h-full"
           />
+          {/* <Image
+            src="/assets/images/book.svg"
+            alt="book of the month"
+            width={800}
+            height={400}
+            className="absolute inset-0 object-cover w-full h-full"
+          /> */}
         </div>
       </aside>
     </section>

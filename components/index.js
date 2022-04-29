@@ -8,5 +8,5 @@ import Footer from './Footer'
 import AboutBook from './AboutBook'
 import Footerbanner from './Footerbanner'
 import Testimonial from './Testimonial'
-
-export{Header, Hero, Cludruns, Book, Rules, Footer, Works, AboutBook, Footerbanner, Testimonial}
+import Virgo  from "./Virgo";
+export{Header, Hero, Cludruns, Book, Rules, Footer, Works, AboutBook, Footerbanner, Testimonial,Virgo}
