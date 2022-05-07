@@ -10,14 +10,14 @@ import React from 'react'
           className="relative rounded-lg w-80 "
         />
         {/* Small text */}
-        <div className="text absolute bg-white opacity-75 px-2 text-black overflow-hidden w-auto bottom-0 py-4 group-hover:hidden  transition ease-in-out duration-700">
+        <div className="text absolute bg-white opacity-75 px-2 text-black overflow-hidden w-auto bottom-0 py-4 group-hover:hidden  ">
           <p className="font-medium">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, nisi?
           </p>
           <p className="text-sm py-2">21 Nov 2021</p>
         </div>
         {/* Large text */}
-        <div className="text absolute bg-white opacity-75 px-2 py-4 hidden group-hover:block  group-hover:h-full hover:translate-y left-0 right-0 bottom-0  transition ease-in-out duration-700">
+        <div className="text absolute bg-white opacity-75 px-2 py-4 hidden group-hover:block  group-hover:h-full ">
           <p className="font-medium">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, nisi?
           </p>

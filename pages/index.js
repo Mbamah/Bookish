@@ -16,7 +16,7 @@ export default function Home() {
       <Rules/>
       <AboutBook/>
       <Testimonial/>
-      <Virgo/>
+      {/* <Virgo/> */}
       <Footerbanner/>
     </section>
   );
